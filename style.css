@@ -1,0 +1,148 @@
+body {
+    font-family: 'Asap', sans-serif;
+    background-color: #EBEBEB;
+}
+
+.mobwrapper {
+    display: none;
+}
+
+.container {
+           min-height: 500px;
+           max-width: 1024px;
+           margin: 0 auto;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+          
+           
+        }  
+
+.header-container {
+               background-color: rgba(60, 60, 60);
+               min-height: 100px;
+            
+            
+
+}
+header {
+       max-width: 1024px;
+    /* background-color: blueviolet; */
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.col p {
+     font-size: 0.875rem;
+     padding: 20px 25px;
+     line-height: 1.25rem;
+
+}
+
+ .col {
+       width: 30%;
+       margin-bottom: 40px;
+       background-color: rgba(43, 226, 147);
+    
+             }       
+
+.hide-desktop-only {
+      display: none;
+}
+
+.col img {
+      width:100%;
+      height: auto;
+}
+
+p:first-line {
+    font-weight: 700;
+
+}
+
+.mybutton  {
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 25px;
+    margin-left: 20px;
+    border-radius: 1000px;
+
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+
+ .col { 
+     width: 50%;
+
+       }
+
+       .hide-desktop-only {
+        display: block;
+ }
+.header-container{
+              position: relative;
+
+}
+ 
+nav {
+display: none;
+
+}
+nav a {
+     display: block;
+     margin: 10px;
+
+}
+ 
+.logo {
+   padding: 40px 0;
+
+}
+
+.container {
+          padding-top: 0px;
+}
+
+.mobwrapper {
+    display: block;
+    padding-right: 30px;
+}
+
+.mobnav {
+        display: none;
+         position: absolute;
+
+}
+
+.navbutton{
+    display: block;
+    background-color: rgba(255, 0, 0, 0.65);
+    padding: 15px 30px;
+    margin-left: -70px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+}
+/* Mobile view */
+@media (max-width: 400px) {
+
+
+.col { 
+     width: 100%;
+       }
+  
+.hide-mobile {
+    display: none;
+       }
+
+
+}
+
